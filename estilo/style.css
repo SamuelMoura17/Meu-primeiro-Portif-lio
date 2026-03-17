@@ -94,7 +94,7 @@ section#Sobre{
 
     margin: 10px;
 
-    margin-top: 60px;
+    margin-top: 150px;
     margin-bottom: 130px;
 }
 
@@ -234,11 +234,72 @@ section#skills > h2{
 div.habilidades{
     display: flex;
 
-    gap: 40px;
+    gap: 30px;
 }
 
 div.habilidade{
     margin: auto;
+
+    font-size: 1.5vw;
+}
+
+div.habilidade  img{
+    width: 8vw;
+    height: 50%;
+
+    margin-bottom: 30px;
+    margin-left: 25%;
+
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.2));
+
+}
+
+div.habilidade img:hover{
+    transition: 0.4s;
+
+    transform: translateY(-6px);
+
+    filter: drop-shadow(0 0 6px rgba(59, 130, 246, 0.8));
+
+    width: 9vw;
+}
+
+div.habilidade > h3{
+    font-family: var(---fonte-textos);
+
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+p.nivel{
+    font-family: var(---fonte-titulos);
+    font-size: clamp(7px, 1.3vw, 30px);
+
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width: 30px;
+
+    line-height: 1.5;
+
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+p.descricao{
+    font-family: var(---fonte-textos);
+    font-size: clamp(3px, 1.5vw, 30px);
+
+    text-align: center;
+
+    text-shadow: 0 0 3px rgba(0,0,0,0.6);
+}
+
+strong{
+    color: #00aaff;
+    text-shadow: 0 0 5px rgba(0,150,255,0.5);
 }
 
 footer{
