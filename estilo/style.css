@@ -295,11 +295,115 @@ p.descricao{
     text-align: center;
 
     text-shadow: 0 0 3px rgba(0,0,0,0.6);
+
+    margin-bottom: 80px;
 }
 
 strong{
     color: #00aaff;
     text-shadow: 0 0 5px rgba(0,150,255,0.5);
+}
+
+section#contatos{
+    padding: 20px;
+
+    margin: 10px;
+    margin-bottom: 130px;
+} 
+
+section#contatos > h2{
+    font-family: var(---fonte-titulos);
+    font-size: clamp(25px, 2.5vw, 40px);
+
+    text-shadow: 0px 4px 15px rgba(0,0,0,0.9);
+
+    margin-bottom: 100px;  
+}  
+
+div.contato{
+    columns: 2;
+}
+
+div.icones{
+    font-family: var(---fonte-textos);  
+    font-size: clamp(10px, 1.1vw, 15px);
+
+    margin-bottom: 50px;
+
+    margin-left: aut;
+    margin-right: auto;
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    background-color: rgba(14, 1, 1, 0.568);
+
+    width: 25vw;
+    height: 8vw;
+
+    display: flex;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+div.icones:hover{
+    transition: 0.3s;
+
+    height: 11vw;
+
+    box-shadow: 0 8px 25px rgba(56, 139, 253, 0.35);
+
+    background-color: rgba(14, 1, 1, 0.377);
+
+    padding: 35px;
+
+    transform: translateY(-6px);
+}
+
+svg{
+    padding: 1.2vw;
+
+    margin-right: 10px;
+    
+    background-color: rgba(250, 244, 244, 0.192);
+
+    border-radius: 40%;
+
+    flex-shrink: 0;
+}
+
+div.icones  h3{
+    font-size: clamp(13px, 2vw, 25px);
+
+    margin-top: 10px;
+}
+
+div.icones p{
+    transition: 0.3s;
+
+    font-family: var(---fonte-titulos);
+
+    opacity: 0;
+    text-align: left;
+
+    font-size: clamp(6px, 1.3vw, 20px);
+}
+
+div.icones:hover p{
+    opacity: 1;
+
+    margin-top: clamp(10px, 7.8vw, 40vw);
+    margin-left: -10.2vw;
+}
+
+p#voltar{
+    text-align: right;
+    
+    font-family: var(---fonte-titulos);
+    font-size: clamp(13px, 1.5vw, 40px);
+
+    margin-right: 10px;
 }
 
 footer{
@@ -310,8 +414,6 @@ footer{
     color: white;
 
     padding: 5px;
-
-    margin-top: 60px;
 
     font-size: clamp(16px, 1.3vw, 28px);
 }
