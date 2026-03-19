@@ -378,10 +378,6 @@ section#contatos > h2{
     margin-bottom: 100px;  
 }  
 
-div.contato{
-    columns: 3;
-}
-
 div.icones{
     font-family: var(---fonte-textos);  
     font-size: clamp(10px, 1.1vw, 15px);
@@ -391,7 +387,7 @@ div.icones{
     margin-left: auto;
     margin-right: auto;
 
-    padding: 2.5vw;
+    padding: 3vw;
 
     border-radius: 30px;
 
@@ -402,7 +398,11 @@ div.icones{
 
     display: flex;
 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
+
+    justify-content: baseline;
+
+    box-shadow: 0 4px 15px rgba(129, 124, 124, 0.26);
 }
 
 div.icones:hover{
