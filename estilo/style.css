@@ -190,7 +190,9 @@ div.imagem img:hover{
 }
 
 button{
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.3vw, 30px);
+
+    cursor: pointer;
 
     background-color: white;
 
@@ -253,6 +255,8 @@ div.habilidade  img{
     margin-left: 25%;
 
     filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.2));
+
+    cursor: pointer;
 
 }
 
@@ -447,7 +451,7 @@ div.icones p{
     opacity: 0;
     text-align: left;
 
-    font-size: clamp(6px, 1.3vw, 20px);
+    font-size: clamp(5px, 1.1vw, 40px);
 }
 
 div.icones:hover p{
